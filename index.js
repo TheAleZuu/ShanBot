@@ -681,7 +681,7 @@ pru += `@${_.split('@')[0]}\n`
 }
 ban.push(`${mentioned}`)
 fs.writeFileSync('./database/banned.json', JSON.stringify(ban))
-susp = `『 BANEADO 🚫 』\n\n◉Nombre: @${mentioned[0].split('@')[0]}\n◉Razon: Spam\n\n*Usted a sido baneado del uso del bot, no podra usar el bot hasta nuevo aviso*`
+susp = `「 BAN 🚫 」\n\n*CASO Nº*\n*USUARIO: @${mentioned[0].split('@')[0]}*\n\n*¡Malas noticias @${mentioned[0].split('@')[0]}! Se te ha restringido el uso del bot :( ¿qué cagada te mandaste weon?*`
 mentions(`${susp}`, mentioned, true)   
 break
 
@@ -697,7 +697,7 @@ pru += `@${_.split('@')[0]}\n`
 }
 ban.splice(`${mentioned}`)
 fs.writeFileSync('./database/banned.json', JSON.stringify(ban))
-susp = `『 DESBANEADO ✅ 』\n\n◉Nombre: @${mentioned[0].split('@')[0]}\n\n*Se te a retirado el BAN ya puedes usar el bot*`
+susp = `「 DESBAN ✅ 」\n\n*CASO Nº*\n*USUARIO: @${mentioned[0].split('@')[0]}*\n\n*¡Buenas noticias @${mentioned[0].split('@')[0]}! Se te han retirado las restricciones con el bot, ya puedes usar el bot tranquilamente! :D*`
 mentions(`${susp}`, mentioned, true)   
 break		
 			
@@ -712,31 +712,22 @@ rate = body.slice(5)
 client.updatePresence(from, Presence.composing) 
 random = `${Math.floor(Math.random() * 100)}`
 gay = random
-if (gay < 20 ) {ga = 'Usted es hetero 🤪🤙'} else if (gay == 21 ) {ga = 'Mas o menos 🤔'} else if (gay == 23 ) {ga = 'Mas o menos 🤔'} else if (gay == 24 ) {ga = 'Mas o menos 🤔'} else if (gay == 25 ) {ga = 'Mas o menos 🤔'} else if (gay == 26 ) {ga = 'Mas o menos 🤔'} else if (gay == 27 ) {ga = 'Mas o menos 🤔'} else if (gay == 28 ) {ga = 'Mas o menos 🤔'} else if (gay == 29 ) {ga = 'Mas o menos 🤔'} else if (gay == 30 ) {ga = 'Mas o menos 🤔'} else if (gay == 31 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 32 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 33 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 34 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 35 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 36 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 37 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 38 ) {ga = 'TTengo mi dudas 😑'} else if (gay == 39 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 40 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 41 ) {ga = 'Tengo razon? 😏'} else if (gay == 42 ) {ga = 'Tengo razon? 😏'} else if (gay == 43 ) {ga = 'Tengo razon? 😏'} else if (gay == 44 ) {ga = 'Tengo razon? 😏'} else if (gay == 45 ) {ga = 'Tengo razon? 😏'} else if (gay == 46 ) {ga = 'Tengo razon? 😏'} else if (gay == 47 ) {ga = 'Tengo razon? 😏'} else if (gay == 48 ) {ga = 'Tengo razon? 😏'} else if (gay == 49 ) {ga = 'Tengo razon? 😏'} else if (gay == 50 ) {ga = 'Eres o no? 🧐'} else if (gay > 51) {ga = 'Usted es gay 🥸'}
-hasil = `${rate}Usted es ${random}% gay\n\n${ga}`
+if (gay = 1 ) {ga = 'excelente mi bro, no eres gay 🧐🍸'} else if (gay < 10) {ga = 'tienes... algo de gay en tu ser 😧'} else if (gay < 30 ) {ga = 'qu-qué?!!??!'} else if (gay < 40 ) {ga = 'tengo mis dudas...'} else if (gay < 50) {ga = 'oh no...'} else if (gay == 50 ) {ga = 'mitad gay mitad normal'} else if (gay < 60) {ga = 'usted es un porquito gay :o'} else if (gay < 80) {ga = 'n-no... j-jugador de free fire no me chupes la polla 😣'} else if (gay < 100) {ga = '............'} else if (gay == 100) {ga = fs.readFileSync('./mp4/trollface sus.mp4')}
+hasil = `${rate} usted es ${random}% gay XD`
+ga = `${ga}`
 reply(hasil)
-break
-
-case 'cuties':
-if (!isUser) return reply(mess.only.daftarB)
-rate = body.slice(9)
-client.updatePresence(from, Presence.composing) 
-random = `${Math.floor(Math.random() * 100)}`
-cuties = random
-if (cuties < 20 ) {cu = 'Mi loco usted va para el cielo 👏'} else if (cuties == 21 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 23 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 24 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 25 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 26 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 27 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 28 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 29 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 30 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 31 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 32 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 33 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 34 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 35 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 36 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 37 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 38 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 39 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 40 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 41 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 42 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 43 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 44 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 45 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 46 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 47 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 48 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 49 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 50 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties > 51) {cu = 'Señores un autentico FAN DE CUTIES esta en el grupo 🥸'}
-hasil = `${rate}Resultado ${random}% fan de cuties\n\n${cu}`
-reply(hasil)
+reply(ga)
 break
 				  
-case 'rankgay':
+case 'topgay':
 try{
 if (!isUser) return reply(mess.only.daftarB)
 if (!isGroup) return reply(mess.only.group)
 d = []
-teks = 'Top 5 de los mas gays del grupo\n\n'
-for(i = 0; i < 5; i++) {
+teks = 'SEÑORAS Y SEÑORES, LES PRESENTAMOS AL GAY Nº1 DEL GRUPO...\n\n'
+for(i = 0; i < 1; i++) {
 r = Math.floor(Math.random() * groupMetadata.participants.length + 0)
-teks += `➔ @${groupMembers[r].jid.split('@')[0]}\n`
+teks += `ESA PERSONA ES..........\n\n➔ @${groupMembers[r].jid.split('@')[0]}\n¡FELICIDADES! ¡SOS EL MÁS GAY DEL GRUPO! Tomá tu premio: 🏆`
 d.push(groupMembers[r].jid)
 }
 mentions(teks, d, true)
@@ -744,39 +735,23 @@ mentions(teks, d, true)
 console.log(e)
 reply('Hubo un error intentalo nuevamente :/')
 }
-break				
+break
 											
-/******JUEGOS SHANDUY LA PUTA MADRE NO TE OLVIDES******/					
-					
-					
-       				case 'wa.me':
-				  case 'wame':
-  client.updatePresence(from, Presence.composing) 
-      options = {
-          text: `「 *LINK WHATSAPP* 」\n\n_Solicitado por_ : @${sender.split("@s.whatsapp.net")[0]}\n\nSu link de Whatsapp : *https://wa.me/${sender.split("@s.whatsapp.net")[0]}*\n*O ( / )*\n*https://api.whatsapp.com/send?phone=${sender.split("@")[0]}*`,
-          contextInfo: { mentionedJid: [sender] }
-    }
-    client.sendMessage(from, options, text, { quoted: mek } )
-				break
-				if (data.error) return reply(data.error)
-				reply(data.result)
-				break
-		
+/******JUEGOS SHANDUY LA PUTA MADRE NO TE OLVIDES******/
 	
-	case 'creador':
-	       client.sendMessage(from, {displayname: "Shan 🥸", vcard: vcard}, MessageType.contact, { quoted: mek})
-		client.sendMessage(from, 'Hola 👋 te saluda Shan, este es un mensaje predeterminado al igual que el audio.\n\nArriba esta mi contacto por si tienen algun problema con las descargas o yo que se.\nYo no soy dueño de este bot ni tampoco lo controlo, yo solo cree la base de datos y le doy mantenimiento.\nEl numero osea mi contacto de arriba no es un bot, si te dio pereza escuchar el audio gordito trolo.\nBueno disfruten del bot y si quieres me puedes seguir en instagram.\n\n*Mi instagram:* https://www.instagram.com/thepavos\n\n*Como instalar el bot:* https://www.youtube.com/watch?v=2LQSzEbpJ-M\n\n_*by shanduy*_',MessageType.text, { quoted: mek} )
+	case 'creator-shan':
+                client.sendMessage(from, {displayname: "Shan", vcard: vcard}, MessageType.contact, { quoted: mek})
+		client.sendMessage(from, 'Ahí puedes consultar tus preguntas :)\n\nÉl es Shanduy, el desarrollador de ShanBot. Recuerda comunicarte solo para consultas, NO MOLESTES POR FAVOR.',MessageType.text, { quoted: mek} )
                 const none = fs.readFileSync('./mp3/shan.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                 break
-	
-	
-	case 'x':
+
+	case '@everyone':
                 client.updatePresence(from, Presence.composing) 
                 if (!isGroupAdmins) return reply(mess.only.Badmin)
 		if (!isUser) return reply(mess.only.daftarB)
                 if (!isGroup) return reply(mess.only.group)
-                teks = body.slice(3)
+                teks = body.slice(9)
                 group = await client.groupMetadata(from);
                 member = group['participants']
                 jids = [];
@@ -816,7 +791,7 @@ break
 					client.updatePresence(from, Presence.composing) 
                                         if (!isUser) return reply(mess.only.daftarB)
 					if (!isGroup) return reply(mess.only.group)
-					teks = `*Lista De Administradores Del Grupo*\n\n${groupMetadata.subject}\n\nTotal: ${groupAdmins.length}\n\n`
+					teks = `*「 Administradores del grupo 」*\n\n${groupMetadata.subject}*\nTotal: ${groupAdmins.length}\n\n`
 					no = 0
 					for (let admon of groupAdmins) {
 						no += 1
@@ -829,21 +804,7 @@ break
 					if (args.length < 1) return
 					if (!isOwner) return reply(mess.only.ownerB)
 					prefix = args[0]
-					reply(`El prefijo se ha cambiado correctamente a : ${prefix}`)
-					break
-			case 'todos':
-				client.updatePresence(from, Presence.composing) 
-					if (!isGroup) return reply(mess.only.group)
-                                        if (!isUser) return reply(mess.only.daftarB)
-					if (!isGroupAdmins) return reply(mess.only.admin)
-					members_id = []
-					teks = (args.length > 1) ? body.slice(7).trim() : ''
-					teks += `  Total : ${groupMembers.length}\n`
-					for (let mem of groupMembers) {
-						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
-						members_id.push(mem.jid)
-					}
-					mentions('╔══✪〘 *TODOS* 〙✪══\n╠➥'+teks+'╚═〘 _*by shanduy*_ 〙', members_id, true)
+					reply(`El prefijo se ha cambiado correctamente a ${prefix}`)
 					break
                                 case 'send':
 					var pc = body.slice(6)
@@ -1073,7 +1034,7 @@ break
 case 'grupocr':
 client.updatePresence(from, Presence.composing) 
 options = {
-text: `El creador de este grupo es: @${from.split("-")[0]}`, 
+text: `El creador de este grupo es @${from.split("-")[0]}`, 
 contextInfo: { mentionedJid: [from] }
 }
 client.sendMessage(from, options, text, { quoted: mek } )
@@ -1081,26 +1042,29 @@ break
                                       
 case 'kick':
 case 'pafuera':
-if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-if (!isGroupAdmins) return reply(mess.only.admin)
-if (!isGroup) return reply(mess.only.group)
-if (mek.message.extendedTextMessage === null || mek.message.extendedTextMessage === undefined) return reply('Marca al que vamos a funar')
-if (mek.message.extendedTextMessage.contextInfo.participant === undefined) {
-entah = mek.message.extendedTextMessage.contextInfo.mentionedJid
-if (entah.length > 1) {
-var mems_ids = []
-for (let ids of entah) {
-mems_ids.push(ids)
-}
-client.groupRemove(from, mems_ids)
-} else {
-client.groupRemove(from, [entah[0]])
-}
-} else {
-entah = ridwan.message.extendedTextMessage.contextInfo.participant
-client.groupRemove(from, [entah])
-}
-break
+client.updatePresence(from, Presence.composing) 
+					if (!isGroup) return reply(mess.only.group)
+					if (!isGroupAdmins) return reply(mess.only.admin)
+					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Marca al que vamos a funar')
+					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
+					if (mentioned.length == 1) {
+						teks = 'Pedido recibido, chao paaa '
+						for (let _ of mentioned) {
+							teks += `@${_.split('@')[0]}\n`
+				        const none = fs.readFileSync('./mp3/baneado.mp3');
+		                        client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+                                                }
+						mentions(teks, mentioned, true)
+						client.groupRemove(from, mentioned)
+					} else {
+						mentions(`Pedido recibido, chao paaa @${mentioned[0].split('@')[0]}`, mentioned, true)
+						client.groupRemove(from, mentioned)
+					client.sendMessage(mentioned, 'Chao puta gorda', text)
+					const none = fs.readFileSync('./mp3/a tu casa gorda puta.mp3');
+		                        client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+					}
+					break
 
 case 'demote':
 if (!isGroup) return reply(mess.only.group)
