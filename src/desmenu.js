@@ -1,43 +1,19 @@
 const desmenu = (prefix, pushname) => {
     return `
-*Comandos De Descargas ✅*
- 
-══════════════
+「 _*Descarga de archivos*_ 」
 
-*AUDIO*
+*Esta función se encarga de convertir videos de YouTube a mp3 o mp4, colocando el nombre o el enlace del video (siempre de la plataforma YouTube)*
 
-${prefix}play
-Coloca el nombre de la cancion o el link del video YT
-
-${prefix}play2
-Una alternativa por si *play llego a su limite de canciones
+◪ *Comandos*
+│
+└─◪ *MP3*
+  ├─❏ ${prefix}
+  └─❏ ${prefix}
 
 
-Ejemplo:
-${prefix}play Industry Baby - Lil Nas X
+*${prefix}play y ${prefix}play2 tiene un limite de 2000 canciones en el server, si llega a su limite se restablecera dentro de 24 horas*
 
-O
-
-Ejemplo:
-${prefix}play www.youtube.com/xxxxxxxx
-
-══════════════
-
-*VIDEO*
-
-${prefix}ytmp4
-Descarga videos de YouTube
-
-Ejemplo:
-${prefix}ytmp4 www.youtube.com/xxxxxxxx
-
-══════════════
-    
-_*play y *play2 tiene un limite de 2000 canciones en el server, si llega a su limite se restablecera dentro de 24 horas_
-     
-_*by shanduy*_
-`
-
-}
+*${prefix}ytmp4 y ${prefix}ytmp3 se encuentran en mantenimiento. Paciencia :)*
+`}
 
 exports.desmenu = desmenu

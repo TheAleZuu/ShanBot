@@ -1,33 +1,23 @@
 const menuadmin = (prefix, pushname) => {
- return `Hola aqui los comandos para admins
- _Para que el bot ejecute estos comandos obs es necesario dar admin al bot_
- 
- ◪ *COMANDOS DE ADMIN*
+    return `
+「 _*Comandos de administración*_ 」
+
+ ◪ *Comandos*
  │
- ├─ ❏ ${prefix}opengc
- ├─ ❏ ${prefix}closegc
- ├─ ❏ ${prefix}promote
- ├─ ❏ ${prefix}demote
- ├─ ❏ ${prefix}tagall
- ├─ ❏ ${prefix}tagall2
- ├─ ❏ ${prefix}tagall3
- ├─ ❏ ${prefix}tagall4
- ├─ ❏ ${prefix}tagall5
- ├─ ❏ ${prefix}add
- ├─ ❏ ${prefix}kick
- ├─ ❏ ${prefix}listadmins
- ├─ ❏ ${prefix}linkgroup
- ├─ ❏ ${prefix}leave
- ├─ ❏ ${prefix}welcome
- ├─ ❏ ${prefix}nsfw
- ├─ ❏ ${prefix}leveling
- ├─ ❏ ${prefix}level
- ├─ ❏ ${prefix}delete
- ├─ ❏ ${prefix}simih
- └─ ❏ ${prefix}ownergroup
- `
-
-
-}
+ ├─❏ ${prefix}closegc: Bloquear grupo
+ ├─❏ ${prefix}opengc: Abrir grupo
+ ├─❏ ${prefix}promote (mención): Designar un miembro como administrador
+ ├─❏ ${prefix}demote (mención): Degradar a un administrador
+ ├─❏ ${prefix}tagall: Mencionar a todos los integrantes del grupo
+ ├─❏ ${prefix}kick: Expulsar a un integrante
+ ├─❏ ${prefix}listadmins: Mencionar a todos los admins del grupo
+ ├─❏ ${prefix}linkgroup: Obtener link del grupo
+ ├─❏ ${prefix}leave: Me voy :,C
+ ├─❏ ${prefix}welcome [1 o 0]: Habilitar o deshabilitar mensaje de bienvenida
+ ├─❏ ${prefix}nsfw [1 o 0]: Habilitar o deshabilitar NSFW
+ ├─❏ ${prefix}antimenu: Configurar enlaces permitidos y prohibidos
+ ├─❏ ${prefix}leveling [1 o 0]: Habilitar niveles de experiencia
+ └─❏ ${prefix}delete [responder un mensaje del bot]: Eliminar un mensaje del bot
+ `}
 
 exports.menuadmin = menuadmin

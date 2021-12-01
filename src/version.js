@@ -1,10 +1,9 @@
 const version = (prefix, pushname) => {
     return `
-*ShanBot by shanduy*
+*ѕнαηвσт ву ѕнαη∂υу*
 
-*Actualizado:* 26 de Noviembre del 2021
-*Versión actual:* 4.3
-*Ofrecida por:* shanduy™
+
+*Ofrecida por:* ѕнαη∂υу™
 
 
 *INFORME*
@@ -15,17 +14,11 @@ Cambiare la apikey pasando un mes o si veo muchos atercados o robos
 Si vez a alguien que robo mi bot comunicate conmigo con el comando *creador
 
 
-*COMO ACTUALIZAR EL BOT*
+*BLOG DE SHANBOT*
 
-https://cutt.ly/dWp5uqE
+https://cutt.ly/jmSF2RN
 
-
-*SIGUEME EN INSTAGRAM 🥸🧉*
-
-https://www.instagram.com/thepavos
-
-
-_*by shanduy*_
+ву ѕнαη∂υу
 `
 
 }

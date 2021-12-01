@@ -45,32 +45,19 @@ ${prefix}antitik 0
 
 ══════════════
 
-
-_*Antilink De Kwai*_
-
-*PARA ACTIVAR EL ANTILINK*
-${prefix}antikwai 1
-
-*PARA DESACTIVAR EL ANTILINK*
-${prefix}antikwai 0
- 
-══════════════
-
-
-_*Antilink De Discord*_
+_*Antilink De Youtube*_
 
 *PARA ACTIVAR EL ANTILINK*
-${prefix}antidiscord 1
+${prefix}antitube 1
 
 *PARA DESACTIVAR EL ANTILINK*
-${prefix}antidiscord 0
- 
-══════════════
+${prefix}antitube 0
+
 
 _Para activar estos comandos el bot necesita tener admin en el grupo y esta funcion solo la activan los admins del grupo_
 
 
-_*by shanduy*_
+ву ѕнαη∂υу
 `
 
 }

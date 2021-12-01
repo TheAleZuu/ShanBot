@@ -1,34 +1,15 @@
 const levelmenu = (prefix, pushname) => {
     return `
 
-*Comandos De Level 🆕 beta*
- 
-══════════════
+_*Niveles de XP*_
 
-PARA ACTIVARLO EL BOT NECESITA DE ADMINISTRACIÓN
+*Los niveles de experiencia hacen referencia a los famosos bots de Discord como MEE6, ProBot, y muchísimos bots más. Los cuales te recompensan "experiencia" según tu actividad en el servidor y subes de nivel cada cierta cantidad de XP. ѕнαη∂υу realizó el esmero trabajo de añadir esta función al ShanBot (o similar).
 
-*PARA ACTIVAR LEVEL*
-
-*leveling 1
-
-
-*PARA DESACTIVAR LEVEL*
-
-*leveling 0
-
-══════════════
-
-PARA VER TU XP EN TIEMPO REAL
-
-*level
-
-══════════════
-    
-*Recuerda que si actualizas tu bot o borras el numero del bot o otra cosa todos los levels de los particiantes quedaran en 0*
-    
-_*by shanduy*_
-`
-
-}
+◪ *Comandos*
+│
+├─❏ leveling 1: Habilitar leveling
+├─❏ leveling 0: Deshabilitar leveling
+└─❏ level: Ver mi level actual
+`}
 
 exports.levelmenu = levelmenu
