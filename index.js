@@ -89,7 +89,7 @@ const vcard2 = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'END:VCARD'
 /******FIN DE ENTRADA VCARD******/
 
-prefix = 'SHAN-'
+prefix = '!'
 blocked = []
 banChats = false
 
