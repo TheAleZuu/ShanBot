@@ -350,7 +350,7 @@ Ya que me presenté, es hora de conocer mis utilidades, prueba ${prefix}help par
 					insta: 'Descargando...',
 					musica: 'Descargando...',
 					musica2: 'Descargando...',
-					daftarB: '*❬❌❭ No estás registrado en mi base de datos!*\nRegístrate con SHAN-daftar (nombre)',
+					daftarB: `*❬❌❭ No estás registrado en mi base de datos!*\nRegístrate con ${prefix}daftar (nombre)`,
 				}
 			}
     			const apakah = ['Si','No']
