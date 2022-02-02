@@ -1313,7 +1313,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
     (function() {
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
-      xeon.setStatus(`✙ ʙᴏᴛ ꜰᴏʀ Rᴏᴡᴇʀ Aɴᴄᴇꜱᴛʀᴀʟ ᴄᴏᴍᴍᴜɴɪᴛʏ! ᴘʟᴇᴀꜱᴇ ᴊᴏɪɴ ᴜꜱ 🖤 https://chat.whatsapp.com/KvUQLndset0At8GGxvTbnz. Bot activo hace: ${uptime} (mandar mensaje para actualizar)`);
+      xeon.setStatus(`✙ Bᴏᴛ ꜰᴏʀ Dɛɱơŋ Sƙყʑɛɛ ᴄᴏᴍᴍᴜɴɪᴛʏ! Pʟᴇᴀꜱᴇ ᴊᴏɪɴ ᴜꜱ 🖤 https://chat.whatsapp.com/JXZv8DZAXbt7HRYAHbAR32. Bot activo hace: ${uptime} (mandar mensaje para actualizar)`);
       var timer = setInterval(function() {
 
       }, 10000);
@@ -1438,6 +1438,8 @@ prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkont
               break
 
 case '8474':
+noCommand = "QUE HACEMOS, PA? ESTE COMANDO SOLO SE USA PARA EL FILTRO ANTI-RAID."
+if (groupName != 'Dɛɱơŋ Sƙყʑɛɛ ҂ FILTRO ツ') return reply(noCommand)
       txtt =`*Fᴀꜱᴇ ᴅᴇ ʀᴇɢɪꜱᴛʀᴏ*
 
 La fase de registro es simple, debes estar de acuerdo con nuestras normas, tanto el reglamento comunitario como las condiciones que se dan por infraccionar dicho reglamento, de lo contrario se negará el ingreso.`
@@ -1461,6 +1463,8 @@ prep = await xeon.prepareMessageFromContent(from, {buttonsMessage},{quoted: fkon
               break
 
 case '8475':
+noCommand = "QUE HACEMOS, PA? ESTE COMANDO SOLO SE USA PARA EL FILTRO ANTI-RAID."
+if (groupName != 'Dɛɱơŋ Sƙყʑɛɛ ҂ FILTRO ツ') return reply(noCommand)
 txtt = `*Rᴇɢʟᴀᴍᴇɴᴛᴏ ᴄᴏᴍᴜɴɪᴛᴀʀɪᴏ*
 
 Accede al siguiente enlace para leer el reglamento...
@@ -1474,6 +1478,8 @@ await xeon.sendMessage(from, txtt, text, {quoted: mek})
 break
 
 case '8476':
+noCommand = "QUE HACEMOS, PA? ESTE COMANDO SOLO SE USA PARA EL FILTRO ANTI-RAID."
+if (groupName != 'Dɛɱơŋ Sƙყʑɛɛ ҂ FILTRO ツ') return reply(noCommand)
 txtt = `*Cᴏɴᴅɪᴄɪᴏɴᴇꜱ ᴅᴇ ᴘᴇɴᴀʟɪᴢᴀᴄɪÓɴ/ʙᴀɴᴇᴏ*
 
 Accede al siguiente enlace para leer las condiciones de penalización...
@@ -1486,6 +1492,8 @@ await xeon.sendMessage(from, txtt, text, {quoted: mek})
 break
 
 case '8477':
+noCommand = "QUE HACEMOS, PA? ESTE COMANDO SOLO SE USA PARA EL FILTRO ANTI-RAID."
+if (groupName != 'Dɛɱơŋ Sƙყʑɛɛ ҂ FILTRO ツ') return reply(noCommand)
 txtt = `¿Estás de acuerdo con nuestras normas? Podrías resultar perjudicado al no leerlas.`
 buttons = [
                   {buttonId:`8478`,buttonText:{displayText:`ACEPTO`},type:1},
@@ -1494,7 +1502,7 @@ buttons = [
 
 buttonsMessage = {
 contentText: `${txtt}`,
-footerText: `¿Tienes WhatsApp MOD? Si es así, no podrás ver los botones de acá abajo, pero no te preocupes, añadimos una opción justo para tí! Responde este mensaje con:
+footerText: `¿Tienes WhatsApp MOD? Si es así, seguramente no puedes ver los botones de acá abajo, pero no te preocupes, añadimos una opción justo para tí! Responde este mensaje con:
 1) ${prefix}8478 para aceptar el acuerdo
 2) ${prefix}8479 para rechazar el acuerdo`,
                buttons: buttons,
@@ -1505,6 +1513,9 @@ prep = await xeon.prepareMessageFromContent(from, {buttonsMessage},{quoted: ftro
               break
 
 case '8478':
+noCommand = "QUE HACEMOS, PA? ESTE COMANDO SOLO SE USA PARA EL FILTRO ANTI-RAID."
+if (groupName != 'Dɛɱơŋ Sƙყʑɛɛ ҂ FILTRO ツ') return reply(noCommand)
+xeon.sendMessage("5492996557871-1583188361@g.us", `_*NUEVO PAPASITO UwU: ${pushname}*_\nwa.me/${sender.split("@")[0]}`, text)
 xeon.groupAdd("5492996557871-1596940074@g.us", [sender])
 
 txtt = `*NUEVO MIEMBRO: @${sender.split("@")[0]}*
@@ -1530,7 +1541,6 @@ Si te arrepientes de esta decisión pronto, deberás comunicarte con un administ
 xeon.sendMessage(from, teks, text, {quoted: fkontak})
 xeon.groupRemove(from, [sender])
 break
-
 
         case 'allmenu':
         case 'xeon':
